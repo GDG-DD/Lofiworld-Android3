@@ -41,12 +41,12 @@
 		});
 	});
 
-	const siteTitle = 'CityHop';
+	const siteTitle = 'Lofiworld';
 
 	const siteDescription =
 		'Take leisurely walks and drives around the world while chilling to lofi music 🎶';
 
-	const siteURL = 'https://www.cityhop.cafe/';
+	const siteURL = 'https://tan.ad/';
 
 	const ogImage = `${$page.url.origin}/og.jpg`;
 
@@ -62,7 +62,7 @@
 
 
 <MetaTags
-	title="CityHop | Aesthetic walks and drives from around the world"
+	title="Lofiworld | Take a break from the world and travel with Lofiworld!"
 	description={siteDescription}
 	canonical={siteURL}
 	openGraph={{
@@ -70,7 +70,7 @@
 		title: siteTitle,
 		description: siteDescription,
 		images: [{ url: ogImage }],
-		siteName: 'CityHop'
+		siteName: 'Lofiworld'
 	}}
 	twitter={{
 		cardType: 'summary_large_image',
