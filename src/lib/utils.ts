@@ -52,8 +52,14 @@ export function getVideoThumbnail(videoID: string, num: number = 3) {
 }
 
 export function goToRandomSceneWithMusic(calmOnly: boolean = false) {
-	goToRandomScene(calmOnly);
-	nowPlaying.station = nowPlaying.scene?.suggestedTrack ?? getRandomLofi();
+    goToRandomScene(calmOnly);
+
+    // Check if suggestedTrack is valid and exists in stationMap
+    if (nowPlaying.scene?.suggestedTrack && stationMap[nowPlaying.scene.suggestedTrack.trackID]) {
+        nowPlaying.station = nowPlaying.scene.suggestedTrack;
+    } else {
+        nowPlaying.station = getRandomLofi();
+    }
 }
 
 export function getSharableURL(url: URL) {
@@ -81,3 +87,4 @@ export function decodeSharableURL(url: URL) {
 
 	return null;
 }
+

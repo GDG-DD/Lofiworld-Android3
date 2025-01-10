@@ -29,7 +29,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: '_gJe9JPgwLM',
 					offset: { start: 30 },
-					suggestedTrack: genres.pop.stations.hits
+					//suggestedTrack: genres.pop.stations.hits
 				},
 				{
 					name: 'Hollywood',
@@ -44,7 +44,7 @@ export default {
 					videoID: 'p_dYvmis0uo',
 					offset: { start: 30 },
 					tags: [Tags.day],
-					suggestedTrack: genres.electronic.stations.tropicalHouse
+					//suggestedTrack: genres.electronic.stations.tropicalHouse
 				},
 				{
 					name: 'Palo Alto',
@@ -58,7 +58,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: 'PGMu_Z89Ao8',
 					offset: { start: 30 },
-					suggestedTrack: genres.jazz.stations.relaxing
+					//suggestedTrack: genres.jazz.stations.relaxing
 				},
 				{
 					name: 'Venice Beach',
@@ -78,7 +78,7 @@ export default {
 					videoID: 'Cod_ggrs69U',
 					offset: { start: 48 },
 					tags: [Tags.night],
-					suggestedTrack: genres.electronic.stations.synthwave
+					//suggestedTrack: genres.electronic.stations.synthwave
 				},
 				{
 					name: 'Palm Beach',
@@ -86,7 +86,7 @@ export default {
 					videoID: 'znNVVV2uezc',
 					offset: { start: 30 },
 					tags: [Tags.day],
-					suggestedTrack: genres.pop.stations.oldies
+					//suggestedTrack: genres.pop.stations.oldies
 				}
 			]
 		},
@@ -105,7 +105,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: '-GSHhsSPcdo',
 					offset: { start: 40 },
-					suggestedTrack: genres.electronic.stations.tropicalHouse
+					//suggestedTrack: genres.electronic.stations.tropicalHouse
 				}
 			]
 		},
@@ -125,7 +125,7 @@ export default {
 					videoID: '9Prtp_eNUiI',
 					offset: { start: 10 },
 					tags: [Tags.night],
-					suggestedTrack: genres.rnb.stations.rnb
+					//suggestedTrack: genres.rnb.stations.rnb
 				}
 			]
 		},
@@ -138,7 +138,7 @@ export default {
 					videoID: '3BAahFrNRaI',
 					offset: { start: 30 },
 					tags: [Tags.day],
-					suggestedTrack: genres.jazz.stations.work
+					//suggestedTrack: genres.jazz.stations.work
 				},
 				{
 					name: 'New Orleans',
@@ -164,7 +164,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: 'aVaQkKBEvzE',
 					offset: { start: 30 },
-					suggestedTrack: genres.jazz.stations.work
+					//suggestedTrack: genres.jazz.stations.work
 				},
 				{
 					name: 'Salem',
@@ -224,7 +224,7 @@ export default {
 					videoID: 'HZaLvgP-R8E',
 					offset: { start: 30 },
 					tags: [Tags.night],
-					suggestedTrack: genres.electronic.stations.synthwave
+					//suggestedTrack: genres.electronic.stations.synthwave
 				}
 			]
 		},
@@ -247,7 +247,7 @@ export default {
 							videoID: 'F8MN0o6RS9o',
 							offset: { start: 10 },
 							tags: [Tags.snow, Tags.day],
-							suggestedTrack: genres.jazz.stations.relaxing
+							//suggestedTrack: genres.jazz.stations.relaxing
 						},
 						{
 							name: 'Manhattan',
@@ -255,7 +255,7 @@ export default {
 							videoID: 'UPrPATfWJ2g',
 							offset: { start: 50 },
 							tags: [Tags.night],
-							suggestedTrack: genres.electronic.stations.vaporfunk
+							//suggestedTrack: genres.electronic.stations.vaporfunk
 						}
 					]
 				},
@@ -356,7 +356,7 @@ export default {
 					videoID: 'fkps18H3SXY',
 					offset: { start: 50 },
 					tags: [Tags.day],
-					suggestedTrack: genres.jazz.stations.relaxing
+					//suggestedTrack: genres.jazz.stations.relaxing
 				},
 				{
 					name: 'Seattle',

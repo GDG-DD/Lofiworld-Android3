@@ -1,4 +1,4 @@
-import type { Genre } from '$lib/types';
+/*import type { Genre } from '$lib/types';
 
 export const pop = {
 	name: 'Pop',
@@ -36,3 +36,4 @@ export const pop = {
 		}
 	}
 } satisfies Genre;
+ */

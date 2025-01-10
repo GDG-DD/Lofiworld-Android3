@@ -1,4 +1,4 @@
-import type { Genre } from '$lib/types';
+/*import type { Genre } from '$lib/types';
 
 export const jazz = {
 	name: 'Jazz',
@@ -42,3 +42,4 @@ export const jazz = {
 		}
 	}
 } satisfies Genre;
+ */
