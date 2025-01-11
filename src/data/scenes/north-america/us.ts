@@ -117,7 +117,7 @@ export default {
 					type: SceneTypes.walk,
 					videoID: 'KXkkKm4AwBg',
 					offset: { start: 10 },
-					suggestedTrack: genres.lofi.stations.coffeeShop
+					suggestedTrack: genres.lofi.stations.tokyoNightvibes
 				},
 				{
 					name: 'Chicago',
@@ -364,7 +364,7 @@ export default {
 					videoID: 'NaWYnMJA5NE',
 					offset: { start: 10 },
 					tags: [Tags.day, Tags.rain],
-					suggestedTrack: genres.lofi.stations.coffeeShop
+					suggestedTrack: genres.lofi.stations.tokyoNightvibes
 				}
 			]
 		}
